@@ -1,0 +1,175 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+body {
+}
+
+.header {
+	width: 3556px;
+	height: 2000px;
+	background-color: #252424;
+	margin: 0 auto;
+}
+.header__logo {
+	margin: 0px 0 0 232px;
+	padding: 152px 0 0 0;
+}
+.header__navi {
+	margin: -90px 0 0 1090px;
+}
+.header__navi li {
+	font-family: Montserrat;
+	font-size: 44.9px;
+	line-height: 1.2;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #eab8c5;
+	display: inline-block;
+	margin: 0 115px 0 0;
+}
+.header__navi li :nth-child(1) {
+	font-family: Montserrat;
+	font-size: 44.9px;
+	line-height: 1.2;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	color: #eab8c5;
+	display: inline-block;
+	background: url(../img/ellipse_715.png) 286px 165px no-repeat;
+}
+.header__poisk {
+	margin: -90px 0 0 2900px;
+}
+.header__title {
+	font-family: Montserrat;
+	font-size: 137.2px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #eab8c5;
+	padding: 205px 0 0 231px;
+}
+.header__subtitle {
+	font-family: Montserrat;
+	font-size: 236.5px;
+	line-height: 1.2;
+	font-weight: 600;
+	color: #d72852;
+	margin: -30px 0 0 450px;
+}
+.header__text {
+	font-family: OpenSans;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #eab8c5;
+	text-align: center;
+	margin: 0 0 0 -1800px;
+}
+.header__line {
+}
+.header__cap {
+}
+.header__left {
+	background: url(../img/Кадр\ 1.png) no-repeat;
+	width: 375px;
+	height: 300px;
+	margin: 160px 0 0 893px;
+}
+.header__up {
+	color: fff;
+}
+.header__right {
+	background: url(../img/Кадр\ 2.png) no-repeat;
+	width: 365px;
+	height: 310px;
+	margin: -370px 0 0 493px;
+}
+.header__up1 {
+}
+.header__line1 {
+}
+.header__smm {
+	margin: 0 0 30px 30px;
+}
+.header__img {
+}
+.header__foto {
+	margin: -950px 0 0 1600px;
+}
+.header__foto1 {
+}

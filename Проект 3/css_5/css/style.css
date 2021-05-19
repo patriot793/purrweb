@@ -1,0 +1,226 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+	background: url(/IMG/line.png) 330px 120px /1200px 1050px no-repeat, url(/IMG/body.png);
+}
+.about {
+	margin: 106px 0 0 0;
+	width: 100%;
+	height: 100%;
+}
+.about__title {
+	width: 100%;
+	height: 10px;
+	opacity: 0.6;
+	color: #273d46;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	/* Text style for "Travel" */
+	font-style: normal;
+	letter-spacing: 2.8px;
+	line-height: normal;
+	padding: 62px 50% 0 50%;
+}
+.about__title:hover {
+	color: red;
+}
+.about__text {
+	/* Style for "Donec sed" */
+	max-width: 100%;
+	height: 75px;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 36px;
+	text-align: center;
+	margin: 20px auto;
+}
+.about__text:hover {
+	background-color: azure;
+}
+.about__img {
+	background: #fff;
+	width: 841px;
+	height: 561px;
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	padding: 10px;
+	margin: 77px auto;
+}
+.about__img:active {
+	border: 4px solid red;
+}
+.main {
+}
+.main__text {
+	display: inline-block;
+	max-width: 736px;
+	height: 257px;
+	opacity: 0.8;
+	color: #273d46;
+	font-family: "Times New Roman PSMT";
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 40px;
+	text-align: left;
+	/* Text style for "D, onec ar" */
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	margin: -77px auto 0 31%;
+	padding: 15px 0 15px 0;
+}
+.main__text p:first-child:hover {
+	text-decoration: underline;
+}
+
+.main__list {
+	margin: 0 0 0 33%;
+}
+.main__list li {
+	background: url(/IMG/check_icon.png) left no-repeat;
+	padding: 0px 0px 0px 35px;
+	margin: 0px 0 5px 0;
+}
+li:nth-child(1) {
+	font-size: 20px;
+	line-height: 36px;
+}
+li:nth-child(2) {
+	font-size: 20px;
+	color: #80b7b3;
+	line-height: 36px;
+}
+li:nth-child(3) {
+	line-height: 36px;
+	text-align: left;
+}
+li:nth-child(4) {
+	opacity-text: 0.3;
+	line-height: 36px;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+.main__btn {
+	width: 199px;
+	height: 44px;
+	border: 1px solid rgb(128, 183, 179);
+	border-radius: 20px;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	background: url(/IMG/Shape_2.png) 152px 17px no-repeat, #80b7b3;
+	margin: 50px 0 50px 590px;
+}
+.main__btn:hover {
+	background-color: cyan;
+}
+.main__btn:active {
+	background-color: darkblue;
+}
+.main__push {
+	display: inline-block;
+	width: 150px;
+	height: 10px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 40px;
+	text-align: left;
+	text-transform: uppercase;
+	/* Text style for "Full Story" */
+	font-style: normal;
+	letter-spacing: 2.8px;
+	line-height: normal;
+	padding: 5px 0 0 15px;
+}
+.main__logo {
+	background-image: url(/IMG/Shape_2.png);
+	padding: 0 8px 0 0;
+}
+.main__push:hover {
+	color: #000;
+}

@@ -1,0 +1,376 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/*--------------------*/
+body {
+}
+
+.header {
+	width: 1280px;
+	height: 450px;
+	background-image: url(/img/DSC_0140.png);
+	margin: 0 auto;
+	position: relative;
+}
+.header__title {
+	opacity: 0.68;
+	font-family: MrsEaves;
+	font-size: 119px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 0.28;
+	letter-spacing: normal;
+	text-align: justify;
+	color: rgba(255, 255, 255, 0.68);
+	padding: 56px 0 0 219px;
+}
+.header__list {
+	margin: -65px 0 0 630px;
+}
+.header__list li {
+	font-family: SegoeWPN;
+	font-size: 23px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: justify;
+	color: #ffffff;
+	display: inline-block;
+	padding: 0 30px 0 0;
+}
+.header__img {
+	position: absolute;
+	top: 199px;
+	left: 251px;
+}
+.header__text {
+	font-family: SegoeWPN;
+	font-size: 65px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+
+	color: #ffffff;
+	margin: 203px 0 0 652px;
+}
+.header__text1 {
+	font-family: SegoeWPN;
+	font-size: 45px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+
+	color: #ffffff;
+	margin: 0px 0 0 652px;
+}
+.header__play {
+}
+.header__play1 {
+}
+.header__btn {
+	margin: 10px 0 0 652px;
+}
+.header__but {
+	font-family: SegoeWPN;
+	font-size: 23px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.42;
+	width: 138px;
+	height: 38px;
+	background-color: #12b367;
+}
+.navi {
+	width: 1280px;
+	height: 1150px;
+	margin: 0 auto;
+}
+.navi__columns {
+	margin: 120px 0 0 180px;
+}
+.navi__col {
+	display: inline-block;
+	margin: 0 126px 0 0;
+}
+.navi__logo {
+}
+.navi__text {
+	font-family: SegoeWPN;
+	font-size: 27px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #5c5b5b;
+	padding: 21px 0 0 0;
+}
+.navi__col1 {
+	display: inline-block;
+	margin: 0 126px 0 0;
+}
+.navi__col2 {
+	display: inline-block;
+	margin: 0 126px 0 0;
+}
+.navi__col3 {
+	display: inline-block;
+}
+.navi__img {
+	margin: 109px 0 0 300px;
+}
+.navi__title {
+	font-family: SegoeWPN;
+	font-size: 39px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #4f4f4f;
+	padding: 61px 0 0 189px;
+}
+.navi__text1 {
+	width: 897px;
+	height: 229px;
+	font-family: UniversCE;
+	font-size: 14px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	text-align: left;
+	color: #818181;
+	padding: 8px 0 0 189px;
+}
+p {
+	padding: 20px 0 0 0;
+}
+.why {
+	width: 1280px;
+	height: 584px;
+	margin: 0 auto;
+}
+.why__container {
+}
+.why__up {
+	display: flex;
+
+	margin: 0 0 0 132px;
+}
+.why__img {
+}
+.why__list {
+	margin: 0 0 0 56px;
+}
+.why__lable {
+	font-family: SegoeWPN;
+	font-size: 33px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #4f4f4f;
+}
+.why__menu {
+}
+.why__menu li {
+	font-family: UniversCE;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #8a8888;
+	background: url(/img/Shape\ 15\ copy\ 4.png) left no-repeat;
+	padding: 0px 0 0 30px;
+}
+
+.why__down {
+}
+.why__tabs {
+	display: flex;
+}
+.why__left {
+	width: 470px;
+	height: 109px;
+	margin: 80px 36px 35px 130px;
+
+	background-color: #e67624;
+}
+.why__title {
+	font-family: SegoeWP;
+	font-size: 28px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.75;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	padding: 15px 0 0 28px;
+}
+.why__user {
+	width: 155px;
+	height: 26px;
+	margin: 20px 14px 0 29px;
+	padding: 3px 0 0 12px;
+}
+.why__password {
+	width: 155px;
+	height: 26px;
+	padding: 3px 0 0 12px;
+}
+.why__button {
+	width: 94px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	background-color: #444444;
+	margin: 10px 0 0 5px;
+	padding: 0px 0 0 14px;
+}
+.why__right {
+	width: 470px;
+	height: 109px;
+	margin: 80px 144px 35px 40px;
+
+	background-color: #01d4f3;
+}
+.why__email {
+	width: 265px;
+	height: 26px;
+	margin: 10px 0 0 29px;
+	padding: 0 0 0 10px;
+}
+:placeholder-shown {
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #4f4f4f;
+}
+.why__button1 {
+	width: 94px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #ffffff;
+	background-color: #444444;
+	margin: 15px 0 0 49px;
+	padding: 0px 0 0 14px;
+}
+.footer {
+	width: 1280px;
+	height: 243px;
+	margin: 0 auto;
+	background-image: url(/img/bgd.png);
+}
+.footer__text {
+	padding: 34px 0 0 175px;
+}
