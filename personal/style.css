@@ -93,7 +93,7 @@ body {
 }
 @media (max-width: 960px) {
 	.header__container {
-		max-width: 751px;
+		max-width: 750px;
 	}
 }
 @media (max-width: 767px) {
